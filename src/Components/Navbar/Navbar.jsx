@@ -6,8 +6,8 @@ const Navbar = () => {
   const location = useLocation();
 
   const navStyles = ({ isActive }) => ({
-    backgroundColor: isActive ? "#7b27c0" : "",
-    color: isActive ? "white" : "",
+    backgroundColor: isActive ? "rgb(149, 56, 226)" : "",
+    color: isActive ? "rgba(11, 11, 11, 0.7" : "",
   });
 
   const isHome = location.pathname === "/";
